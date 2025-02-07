@@ -4,11 +4,11 @@ const app= express();
 
 app.get("/",(req,res)=>{
     try {
-        req.send(200,{success:true,message:"this is Home page"})
+        res.send(200,{success:true,message:"this is Home page"})
 
         
     } catch (error) {
-        req.send(500,{success:false})
+        res.send(500,{success:false})
         
     }
 })
