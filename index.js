@@ -4,7 +4,7 @@ const app= express();
 
 app.get("/",(req,res)=>{
     try {
-        res.send(200,{success:true,message:"this is Home page"})
+        res.send(200,{success:true,message:"this is Home page docker jenkins"})
 
         
     } catch (error) {
