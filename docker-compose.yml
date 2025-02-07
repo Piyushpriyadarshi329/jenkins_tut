@@ -1,6 +1,6 @@
 version: '3.3'
 services:
   web:
-   build: .
+   image: piyushp329/myapp:latest
    ports: 
     - "5001:5001"
